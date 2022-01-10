@@ -1,0 +1,65 @@
+OGÓLNE:
+
+print("Hello World") - drukuje konkretna wiadomosc na ekranie / logu
+
+import sys - importuje biblioteke systemowa
+
+print(sys.version) - pokazuje aktualna wersje pythona
+
+INDENTS:
+
+jesli cos piszemy, ilosc wciec w danej czesci kodu musi sie spinac po calosci w innym wypadku dostajemy blad
+
+DEKLARACJA ZMIENNYCH:
+
+aby zadeklarowac zmienne, po prostu piszemy ich nazwe i definicje / value, nastepnie mozemy sie na nie powolywac uzywajac {} nawiasow.
+Aby wyrzucic wynik operacji na zmiennych, trzeba, nalezy w trakcie wpisywania PRINT, dorzucic f zaraz na poczatku po otwarciu nawiasu (
+
+KOMENTOWANIE:
+
+Mozna osiagnac albo poprzez wrzucanie # przed kazda linijke albo poprzez ''' zaraz na poczatku bloku kodu ktory chcemy wykomentowac oraz ''' na samym koncu
+bloku kodu ktory chcemy zakomentowac
+
+ZNAKI SPECJALNE:
+
+\n - new line
+\b - back space (kasuje znak poprzedzajacy)
+\t - tab
+\ - w polaczeniu ze znakami specjalnymi powoduje ze znak specjalny jest czytany jako tekst a nie czesc syntaxu
+
+W trakcie wpisywania sciezek, kazda musi zostac wpisana z podwojnymi backslashami bo inaczej bedzie problem z Syntaxem
+Tekst mozna wprowadzac albo przy uzyciu ' albo ". Jesli zaczynamy od jednego, trzeba sie trzymac syntaxu
+
+ZMIENNE
+
+W pythonie nie trzeba deklarowac zmiennych - Python jest jezykiem dynamicznym, sam rozpoznaje jaki rodzaj zmiennej potrzebujemy, na bazie tego
+jaka przypisujemy jej wartosc
+
+print(type(zmienna)) - definiuje jaki typ zmiennej (wzgledem tego jaka zostala nadana jej wartosc) posiada dana zmienna
+
+del zmienna - usuwa zmienna z pamieci, od tego momentu zmienna ktora byla uzywana, juz nie istnieje
+
+ODNALEZIENIE MIEJSCA W PAMIECIE W KTORYM ZAPISANA JEST ZMIENNA
+
+x=4
+print(id(x)
+
+dostaniemy alokacje zmiennej x w pamieci RAM
+
+kazdy rodzaj zmiennej moze zostac skonwertowany do Boolean'a
+
+konwersja zmiennej ktora zawiera "nie pusta" wartosc, zawsze da Boolean = True, zmienna pusta da Boolean = False
+
+STRING OPERATIONS
+
+jesli chcemy wrzucic blok tekstu do jednej zmeinnej i zachowac formatowanie (line breaki) to powinnismy to robic przy uzyciu """ na poczatku bloku tekstu jak i na koncu """
+
+Nie jest mozliwa edycja Sttring'ow - raz zdefiniowany, pozostaje taki jak na poacztku, co mozna zrobic to przypisywac nowe stringi do starych
+Mozna uzywac replace'a wiec ok :)
+
+-------------------------------------
+
+
+
+
+
